@@ -1,0 +1,77 @@
+body{
+  background-color: #222831;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
+#titulo{
+  text-align: center;
+  text-shadow: 2px 2px rgb(147, 14, 191);
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+
+#barraNav{
+    position: sticky;
+    top: 0; // required as well.
+}
+
+a:focus, a:hover, a:active{
+  text-shadow: 2px 2px rgb(147, 14, 191);
+  padding: 2px;
+  text-decoration: none;
+  transition: all .2s;
+  margin-left: 5px;
+}
+.tituloPagina{
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.form1{
+  /* border: 1px solid rgb(147, 14, 191); */
+  box-shadow: 2px 2px 20px black;
+}
+.about #fondoAbout{
+  width: 120%;
+  height: 120%;
+  box-shadow: 10px 10px 100px black;
+  margin-left: -90px;
+}
+.about{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.info{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.info img{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-top: 5px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info .row{
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
+  border: 1px solid rgb(147, 14, 191);
+  border-radius: 10px;
+}
